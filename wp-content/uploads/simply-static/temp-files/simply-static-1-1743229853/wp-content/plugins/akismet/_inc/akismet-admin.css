@@ -1,5 +1,3 @@
-/* This file was automatically generated on Nov 05 2024 03:06:40 */
-
 body {
 	--akismet-color-charcoal: #272635;
 	--akismet-color-light-grey: #f6f7f7;
@@ -69,20 +67,20 @@ body {
 	background: none;
 	font-size: 13px;
 	color: var(--akismet-color-charcoal);
-	text-align: right;
+	text-align: left;
 	text-transform: none;
 }
 
 .akismet-new-snapshot .akismet-new-snapshot__number {
 	color: var(--akismet-color-charcoal);
 	letter-spacing: -1px;
-	text-align: right;
+	text-align: left;
 }
 
 .akismet-new-snapshot li.akismet-new-snapshot__item {
 	color: var(--akismet-color-dark-grey);
 	font-size: 13px;
-	text-align: right;
+	text-align: left;
 	text-transform: none;
 }
 
@@ -97,13 +95,13 @@ body {
 
 /* Need this specificity to override the existing link rule */
 #akismet-plugin-container a.akismet-masthead__back-link {
-	background-image: url(/https://bharat1005.github.io/wordpress//wp-content/plugins/akismet/_inc/img/arrow-left.svg);
-	background-position: right;
+	background-image: url(http://localhost/https:/bharat1005.github.io/wordpress/wp-content/plugins/akismet/_inc/img/arrow-left.svg);
+	background-position: left;
 	background-repeat: no-repeat;
 	background-size: 16px;
 	color: var(--akismet-color-charcoal);
 	font-weight: 400;
-	padding-right: 20px;
+	padding-left: 20px;
 	text-decoration: none;
 }
 
@@ -113,12 +111,12 @@ body {
 
 .akismet-new-snapshot__item {
 	border-top: 1px solid var(--akismet-color-light-grey);
-	border-right: 1px solid var(--akismet-color-light-grey);
+	border-left: 1px solid var(--akismet-color-light-grey);
 	padding: 1em;
 }
 
 .akismet-new-snapshot li:first-child {
-	border-right: none;
+	border-left: none;
 }
 
 .akismet-new-snapshot__list {
@@ -129,8 +127,8 @@ body {
 .akismet-new-snapshot__item {
 	flex: 1 0 33.33%;
 	margin-bottom: 0;
-	padding-right: 1.5em;
 	padding-left: 1.5em;
+	padding-right: 1.5em;
 }
 
 .akismet-new-snapshot__chart {
@@ -171,7 +169,7 @@ body {
 }
 
 .akismet-settings__row-input {
-	margin-right: auto;
+	margin-left: auto;
 }
 
 .akismet-settings__row-title {
@@ -193,16 +191,16 @@ body {
 
 .akismet-card-actions__secondary-action {
 	align-self: center;
-	margin-left: auto;
+	margin-right: auto;
 }
 
 .akismet-card-actions__secondary-action a[target="_blank"]::after {
-	background: url('/https://bharat1005.github.io/wordpress//wp-content/plugins/akismet/_inc/img/icon-external.svg') no-repeat;
+	background: url('http://localhost/https:/bharat1005.github.io/wordpress/wp-content/plugins/akismet/_inc/img/icon-external.svg') no-repeat;
 	background-size: contain;
 	content: "";
 	display: inline-block;
 	height: 16px;
-	margin-right: 5px;
+	margin-left: 5px;
 	vertical-align: middle;
 	width: 16px;
 }
@@ -266,7 +264,7 @@ body {
 
 .akismet-account th {
 	font-weight: 500;
-	padding-left: 1em;
+	padding-right: 1em;
 }
 
 .akismet-account th, .akismet-account td {
@@ -279,12 +277,12 @@ body {
 }
 
 .akismet-settings__row-label-text {
-	padding-right: 0.5em;
+	padding-left: 0.5em;
 	margin-top: 2px;
 }
 
 .akismet-alert {
-	border-right: 8px solid;
+	border-left: 8px solid;
 	border-radius: 8px;
 	margin: 20px 0;
 	padding: 0.2em 1em;
@@ -296,24 +294,24 @@ body {
 
 .akismet-alert.is-good {
 	background-color: var(--akismet-color-notice-light-green);
-	border-right-color: var(--akismet-color-notice-dark-green);
+	border-left-color: var(--akismet-color-notice-dark-green);
 }
 
 .akismet-alert.is-neutral {
 	background-color: var(--akismet-color-white);
-	border-right-color: var(--akismet-color-dark-grey);
+	border-left-color: var(--akismet-color-dark-grey);
 }
 
 .akismet-alert.is-bad {
 	background-color: var(--akismet-color-notice-light-red);
-	border-right-color: var(--akismet-color-notice-dark-red);
+	border-left-color: var(--akismet-color-notice-dark-red);
 }
 
 .akismet-alert.is-commercial {
 	background-color: var(--akismet-color-white);
 	border-color: var(--akismet-color-mid-grey);
 	border-bottom-width: 1px;
-	border-right-color: var(--akismet-color-notice-yellow);
+	border-left-color: var(--akismet-color-notice-yellow);
 	display: flex;
 	padding-bottom: 1em;
 }
@@ -331,7 +329,7 @@ body {
 
 .akismet-alert-button-wrapper {
 	align-self: center;
-	margin-right: 2em;
+	margin-left: 2em;
 	min-width: 120px;
 }
 
@@ -368,13 +366,13 @@ body {
 
 .akismet-enter-api-key-box__key-input {
 	flex-grow: 1;
-	margin-left: 1rem;
+	margin-right: 1rem;
 }
 
 h3.akismet-enter-api-key-box__header {
 	padding-top: 0;
 	padding-bottom: 1em;
-	text-align: right;
+	text-align: left;
 }
 
 /* Notices > Activation (shown on edit-comments.php) */
@@ -390,17 +388,17 @@ h3.akismet-enter-api-key-box__header {
 	align-items: center;
 	/* background-image is defined via an inline style in class.akismet-admin.php */
 	background-color: var(--akismet-color-light-grey);
-	background-position: calc(100% - (100% - 1em)) center;
+	background-position: calc(100% - 1em) center;
 	background-repeat: no-repeat;
 	background-size: 140px;
 	border: 1px solid var(--akismet-color-mid-green);
-	border-right-width: 4px;
+	border-left-width: 4px;
 	display: flex;
 	justify-content: space-between;
 	margin: 15px 0;
 	min-height: 60px;
 	overflow: hidden;
-	padding: 5px 5px 5px 160px;
+	padding: 5px 160px 5px 5px;
 	position: relative;
 }
 
@@ -427,7 +425,7 @@ h3.akismet-enter-api-key-box__header {
 	}
 
 	.akismet-new-snapshot__number {
-		float: left;
+		float: right;
 		font-size: 20px;
 		font-weight: 500;
 		margin-top: -16px;
@@ -449,7 +447,7 @@ h3.akismet-enter-api-key-box__header {
 	}
 
 	.akismet-settings__row-label-text {
-		padding-right: 0.8em;
+		padding-left: 0.8em;
 	}
 
 	.akismet-settings__row input[type="checkbox"],
@@ -459,7 +457,7 @@ h3.akismet-enter-api-key-box__header {
 
 	.akismet-activate {
 		background-size: 120px;
-		padding-left: 134px;
+		padding-right: 134px;
 	}
 
 	.akismet-activate__button {
@@ -468,7 +466,7 @@ h3.akismet-enter-api-key-box__header {
 
 	.akismet-activate__description {
 		font-size: 14px;
-		margin-left: 1em;
+		margin-right: 1em;
 	}
 }
 
