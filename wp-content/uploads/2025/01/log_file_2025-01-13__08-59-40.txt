@@ -1,0 +1,48 @@
+
+---Downloaded files---
+The import files for: Tenzin News Magazine were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = https://demo1.crthemes.com/the-times
+Data file = /var/www/html/demo/wp-content/uploads/sites/9/2025/01/demo-content-import-file_2025-01-13__08-59-40.xml
+Widget file = /var/www/html/demo/wp-content/uploads/sites/9/2025/01/demo-widgets-import-file_2025-01-13__08-59-40.json
+Customizer file = /var/www/html/demo/wp-content/uploads/sites/9/2025/01/demo-customizer-import-file_2025-01-13__08-59-40.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+---Importing widgets---
+Sidebar Front Page : 
+
+Block - No Title - Widget already exists
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Sidebar Inner 1 : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Sidebar E-Commerce : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+Products list - Products - Imported
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+

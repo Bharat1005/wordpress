@@ -1,0 +1,85 @@
+
+---Downloaded files---
+The import files for: Times News Magazine Blog were successfully downloaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://localhost/wordpress
+Data file = C:\xampp\htdocs\wordpress/wp-content/uploads/2025/04/demo-content-import-file_2025-04-01__10-16-40.xml
+Widget file = C:\xampp\htdocs\wordpress/wp-content/uploads/2025/04/demo-widgets-import-file_2025-04-01__10-16-40.json
+Customizer file = C:\xampp\htdocs\wordpress/wp-content/uploads/2025/04/demo-customizer-import-file_2025-04-01__10-16-40.dat
+Redux files:
+not defined!
+
+---ocdi/before_content_import---
+
+
+------
+New AJAX call!
+[WARNING] Failed to import pa_color Black
+[WARNING] Failed to import pa_color Blue
+[WARNING] Failed to import pa_brand Brand A
+[WARNING] Failed to import pa_brand Brand B
+[WARNING] Failed to import pa_brand Brand C
+[WARNING] Failed to import product_visibility exclude-from-catalog
+[WARNING] Failed to import product_visibility exclude-from-search
+[WARNING] Failed to import product_type external
+[WARNING] Failed to import product_visibility featured
+[WARNING] Failed to import product_cat Furniture
+[WARNING] Failed to import pa_color Green
+[WARNING] Failed to import product_type grouped
+[WARNING] Failed to import product_cat Jewelry
+[WARNING] Failed to import pa_size L
+[WARNING] Failed to import pa_size M
+[WARNING] Failed to import pa_color Orange
+[WARNING] Failed to import product_visibility outofstock
+[WARNING] Failed to import product_visibility rated-1
+[WARNING] Failed to import product_visibility rated-2
+[WARNING] Failed to import product_visibility rated-3
+[WARNING] Failed to import product_visibility rated-4
+[WARNING] Failed to import product_visibility rated-5
+[WARNING] Failed to import pa_color Red
+[WARNING] Failed to import pa_size S
+[WARNING] Failed to import product_cat Shoe
+[WARNING] Failed to import product_type simple
+[WARNING] Failed to import product_cat Uncategorized
+[WARNING] Failed to import product_type variable
+[WARNING] Failed to import pa_color White
+[WARNING] Failed to import pa_size XL
+[WARNING] Failed to import pa_size XXL
+
+
+---Importing widgets---
+Sidebar Front Page : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+Block - No Title - Imported
+
+Sidebar Inner 1 : 
+
+Block - No Title - Widget already exists
+Block - No Title - Widget already exists
+
+Sidebar E-Commerce : 
+
+Block - No Title - Imported
+Block - No Title - Imported
+woocommerce_products - Products - Site does not support widget
+
+
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---ocdi/after_import---
+
